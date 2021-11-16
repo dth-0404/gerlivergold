@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>GERLIVER Gold</title>
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- <div class="container-fluid"> -->
+		<a class="navbar-brand logo" href="./index.html">
+			<img src="./img/LogoGerliver.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/germany.svg" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Khuyến mãi</a>
+				<li class="dathang-2">
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Khuyến mãi</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/germany.svg" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<!-- </div> -->
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.580.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>790.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End modal -->
+	</nav>
+	<section class="cauhoi-top">
+		<div class="title">
+			<h2>
+				GERLIVER GOLD <br />
+				GIẢI PHÁP TOÀN DIỆN CHO NÃO BỘ
+			</h2>
+		</div>
+		<div class="fact row">
+			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+				<div class="fact-item fact-item-1">
+					<p>
+						<span>#1</span>Viên uống giải độc gan Gerliver Gold được nghiên cứu lâm sàng và hỗ trợ những vấn
+						đề thường gặp về gan như gan nhiễm mỡ, viêm gan,...
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+				<div class="fact-item fact-item-2">
+					<p>
+						<span>#2</span>Do sản phẩm được điều chế từ thiên nhiên nên không gây ra tác dụng phụ và có hiệu
+						quả lâu dài, vĩnh viễn.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ask">
+		<div id="accordionExample">
+			<div class="One">
+				<div class="ask-item question collapsed hienthi" data-toggle="collapse" data-target="#collapseOne"
+					aria-expanded="true" aria-controls="collapseOne" id="headingOne" style="--transform: rotate(90deg)">
+					<p>
+						Tôi năm nay 47 tuổi, tôi bị gan nhiễm mỡ đã được 2 năm rồi. Tôi được bạn giới thiệu cho sản phẩm
+						hỗ trợ gan Gerliver Gold và tôi dùng được 1 tuần rồi. Tôi muốn biết trong quá trình sử dụng thì
+						tôi nên kiêng những loại thực phẩm nào?
+					</p>
+					<h6>(Nguyễn Mỹ Thảo, Q.Gò Vấp. TPHCM)</h6>
+				</div>
+				<div class="answer collapse show" id="collapseOne" class="collapse" aria-labelledby="headingOne"
+					data-parent="#headingOne">
+					<p>
+						Chào cô Thảo! Gửi đến cô những thông tin sau đây ạ! Gerliver Gold là viên uống hỗ trợ cho người
+						có chức năng gan suy giảm trong các trường hợp: , xơ gan, gan nhiễm mỡ, mỡ máu, viêm gan,… Sản
+						phẩm được điều chế bởi thảo dược quý từ tự nhiên nên nó hoàn toàn không có tác dụng phụ gì cả.
+						Do đó, trogn quá trình sử dụng, cô không cần phải kiêng khem thực phẩm nào cả.
+						Tuy nhiên để tình trạng gan nhiễm mỡ được cải thiện, cô nên hạn chế chất béo, mỡ động vật.;
+						tránh ăn thực phẩm giàu cholesterol;…. cô nhé! Chúc cô sức khỏe!
+					</p>
+				</div>
+			</div>
+			<div class="Two">
+				<div class="ask-item question" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+					aria-controls="collapseTwo" id="headingTwo">
+					<p>
+						Mẹ tôi 60 rồi và bà ấy có những dấu hiệu sau: hay mệt mỏi, đau bụng bên phải, bị sụt cân không
+						rõ lý do gần đây. Vậy có phải mẹ tôi bị bệnh gan rồi đúng không ạ? Và bà ấy phải làm gì tiếp
+						theo?
+					</p>
+					<h6>(Trần Khánh Như, Tiền Giang)</h6>
+				</div>
+				<div class="answer" id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+					data-parent="#headingTwo">
+					<p>
+						Chào chị Như, gửi đến bạn lời giải đáp cho câu hỏi! Qua những thông tin mà chị chia sẻ, rất có
+						thể mẹ chị đã bị gan nhiễm mỡ! Bởi vì triệu chứng thường gặp của bệnh này thường không rõ ràng
+						và dễ nhầm lẫn với bệnh khác như mệt mỏi, sụt cân, đau bụng,… Do vậy mà bệnh nhân hay chủ quan
+						và không chủ động tìm hiểu bệnh.
+						Nhìn chung thì chị nên đưa bác đi khám bac sĩ, xét nghiệm máu và kiểm tra gan để phát hiện bệnh
+						sớm nhất có thể!
+					</p>
+				</div>
+			</div>
+			<div class="Three">
+				<div class="ask-item question" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+					aria-controls="collapseThree" id="headingThree">
+					<p>
+						Tôi bị gan nhiễm mỡ 1 năm trước và tôi cũng đã dùng Gerliver Gold một thời gian. Sau đó, xét
+						nghiệm lại thì bác sĩ có bảo bệnh tình của tôi đã thuyên giảm. Vậy cho tôi hỏi tôi có cần phải
+						dùng sản phẩm này tiếp tục không?
+					</p>
+					<h6>(Phạm Thế Đức, Biên Hòa)</h6>
+				</div>
+				<div class="answer" id="collapseThree" class="collapse" aria-labelledby="headingThree"
+					data-parent="#headingThree">
+					<p>
+						Chào bác Đức! Thông tin đến bác câu trả lời nhé! Gerliver Gold là sản phẩm hỗ trợ giải độc gan
+						và tăng cường chức năng gan, hạ men gan, cải thiện tình trạng tổn thương gan và bảo vệ gan. Do
+						đó, bác đã được chẩn đoán đã hồi phục gan thì bác có thể ngừng sử dụng sản phẩm này mà không tái
+						phát bệnh đâu ạ!
+						Nhưng để tốt cho sức khỏe, giúp bác ăn ngon, ngủ sâu giấc thì hãy sử dụng nó như một loại sản
+						phẩm bảo vệ sức khỏe bác nhé!
+					</p>
+				</div>
+			</div>
+			<div class="Four">
+				<div class="ask-item question" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+					aria-controls="collapseFour" id="headingFour">
+					<p>
+						Tôi bị gan nhiễm mỡ đã gần 5 năm, được con trai mua cho sản phẩm Gerliver Gold này, tôi có dùng
+						nó song song với thuốc của bác sĩ. Thời gian gần đây, tôi nhận thấy bản thân đã khỏe hơn nhiều.
+						Cho tôi hỏi là tôi có nên ngưng thuốc để dùng sản phẩm này không?
+					</p>
+					<h6>(Trần Quốc Thắng, Hải Phòng)</h6>
+				</div>
+				<div class="answer" id="collapseFour" class="collapse" aria-labelledby="headingFour"
+					data-parent="#headingFour">
+					<p>
+						Chào bác Thắng! Gửi đến bác lời giải đáp này ạ! Tuy sản phẩm Gerliver Gold có thành phần từ
+						những nguyên liệu lành tính và có công dụng hỗ trợ giải độc gan và tăng cường chức năng gan hiệu
+						quả. Nhưng sản phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh.
+						Do đó, bác không nên ngưng sử dụng thuốc kê toa từ bác sĩ nếu chưa có chỉ định từ họ. Chúc bác
+						sức khỏe và chiến thắng căn bệnh ạ!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="row">
+		<div class="col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/LogoGerliver.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+				<div class="social row">
+					<a href="">
+						<img src="./img/facebook.png" />
+					</a>
+					<a href="">
+						<img src="./img/twitter.png" />
+					</a>
+					<a href="">
+						<img src="./img/linkedin.png" />
+					</a>
+					<a href="">
+						<img src="./img/pinterest.png" />
+					</a>
+				</div>
+
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-6 col-12">
+			<div class="mid">
+				<h6><small>Link Site</small></h6>
+				<a href="./index.html">
+					<p>Trang chủ</p>
+				</a>
+				<a href="./gioithieu.html">
+					<p>Giới thiệu</p>
+				</a>
+				<a href="./blog.html">
+					<p>Kiến thức sức khỏe</p>
+				</a>
+				<a href="./cauhoi.html">
+					<p>Câu hỏi thường gặp</p>
+				</a>
+				<a href="./lienhe.html">
+					<p>Liên hệ</p>
+				</a>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-5 col-md-12 col-12">
+			<div class="right row">
+				<div class="col-xl-12 col-lg-12 col-md-6">
+					<h6><small>Liên hệ</small></h6>
+					<a href="tel:02873070789">
+						<div class="right-item row">
+							<span><i class="fas fa-phone-alt"></i></span>
+							<p>02873070789</p>
+						</div>
+					</a>
+					<a href="mailto:ecom@soji.asia" class="right-item row">
+						<span><i class="fas fa-envelope"></i></span>
+						<p>ecom@soji.asia</p>
+					</a>
+					<a href="https://GERLIVERgold.com" class="right-item row">
+						<span><i class="fas fa-globe-asia"></i></span>
+						<p>https://gerlivergold.com</p>
+					</a>
+					<a href="#" class="disabled">
+						<div class="right-item row">
+							<span><i class="fas fa-map-marker-alt"></i></span>
+							<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-xl-12 col-lg-12 col-md-6">
+					<h6 class="app"><small>Tải mobile apps</small></h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<img src="./img/google-play.png" /> <br>
+							<img src="./img/app-store.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p><small>Copyright & Design By @Soji Labs</small></p>
+	</footer>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/main.js"></script>
+	<!-- Script -->
+	<script>
+		var aq = document.getElementsByClassName("ask-item question");
+		for (let i = 0; i < aq.length; i++) {
+			aq[i].onclick = function () {
+				if (Boolean(aq[i].classList.contains("hienthi")) == true) {
+					aq[i].classList.remove("hienthi");
+					aq[i].style.setProperty("--transform", "rotate(0)");
+				} else {
+					aq[i].classList.add("hienthi");
+					aq[i].style.setProperty("--transform", "rotate(90deg)");
+				}
+			};
+		}
+	</script>
+	<!-- Script -->
+</body>
+
+</html>
